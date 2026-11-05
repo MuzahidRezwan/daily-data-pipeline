@@ -1,0 +1,33 @@
+name: Daily Automated Data Pipeline
+
+on:
+  schedule:
+    # Runs everyday at 00:00 UTC (06:00 AM BST)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub Actions UI
+
+permissions:
+  contents: write
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run Data Collection Pipeline
+        run: python fetch_data.py
+
+      - name: Commit and Push Daily Update
+        run: |
+          git config --global user.name "Muzahid Rezwan"
+          git config --global user.email "rezwan.it727@gmail.com"
+          git add data/ README.md
+          git commit -m "Auto: Update daily climate dataset and analytics [skip ci]" || exit 0
+          git push
