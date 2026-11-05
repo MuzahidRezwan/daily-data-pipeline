@@ -9,8 +9,12 @@ An autonomous Data Engineering & Collection pipeline that runs every single day 
 ---
 
 ### 📍 Latest Recorded Weather (Dhaka, Bangladesh)
-* **Status:** Initialized Pipeline 🚀
-* **Pipeline Schedule:** Runs daily at 00:00 UTC (06:00 AM BST)
+* **Last Updated:** `2026-11-05 22:43:25 (Asia/Dhaka)`
+* **Temperature:** `22.8 °C`
+* **Feels Like:** `25.6 °C`
+* **Relative Humidity:** `83%`
+* **Wind Speed:** `6.7 km/h`
+* **Total Days Tracked:** `1 days`
 
 ---
 
