@@ -9,12 +9,12 @@ An autonomous Data Engineering & Collection pipeline that runs every single day 
 ---
 
 ### 📍 Latest Recorded Weather (Dhaka, Bangladesh)
-* **Last Updated:** `2026-11-24 07:54:38 (Asia/Dhaka)`
-* **Temperature:** `26.9 °C`
-* **Feels Like:** `28.3 °C`
-* **Relative Humidity:** `57%`
-* **Wind Speed:** `9.8 km/h`
-* **Total Days Tracked:** `14 days`
+* **Last Updated:** `2026-11-26 06:22:00 (Asia/Dhaka)`
+* **Temperature:** `25.7 °C`
+* **Feels Like:** `28.7 °C`
+* **Relative Humidity:** `62%`
+* **Wind Speed:** `3.7 km/h`
+* **Total Days Tracked:** `15 days`
 
 ---
 
